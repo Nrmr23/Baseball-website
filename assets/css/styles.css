@@ -1,0 +1,94 @@
+:root {
+      --primary-color: #0D1B2A;
+      --accent-color: #F46036;
+      --light-bg: #F8F9FA;
+    }
+
+    body {
+      background-color: var(--light-bg);
+    }
+
+    .navbar {
+      background-color: var(--primary-color);
+    }
+
+    .navbar-brand img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(13,27,42,0.85), rgba(13,27,42,0.85)),
+                  url('../img/banner_background.jpg') center center / cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .btn-outline-primary {
+      border-color: var(--accent-color);
+      color: var(--accent-color);
+    }
+
+    .btn-outline-primary:hover {
+      background-color: var(--accent-color);
+      color: white;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+      transition: 0.3s ease;
+    }
+
+    .card-title {
+      color: var(--primary-color);
+    }
+
+    .btn-primary {
+      background-color: var(--accent-color);
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #e24f26;
+    }
+
+    .whatsapp-float, .modal-float {
+      position: fixed;
+      z-index: 999;
+      bottom: 20px;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      font-size: 28px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .whatsapp-float {
+      right: 20px;
+      background-color: #25D366;
+    }
+
+    .modal-float {
+      right: 90px;
+      background-color: var(--accent-color);
+    }
+
+    .blockquote-footer{
+        color: #fff !important;
+        background-color: #e24f26 !important;
+    }
+
+    footer {
+      background-color: var(--primary-color);
+    }
